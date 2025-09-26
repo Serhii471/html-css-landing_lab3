@@ -1,17 +1,67 @@
-.container {
-  width: 344px;
-  height: 100px;
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  position: relative;
+  overflow-x: hidden;
+}
 
-  border-top: 16px solid black;
-  border-right: 1px solid black;
-  border-bottom: 16px solid black;
-  border-left: 1px solid black;
+/* Коло */
+.circle {
+  position: absolute;
+  width: 324px;
+  height: 312px;
+  top: 189px;
+  left: 931px;
+  opacity: 1;
+}
 
-  padding: 16px 8px;
+/* Овал 1 */
+.oval1 {
+  position: absolute;
+  width: 180px;
+  height: 72px;
+  top: 556px;
+  left: 1177px;
+  opacity: 1;
+}
 
-  background-color: #f9f9f9;
-  font-size: 16px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+/* Овал 2 */
+.oval2 {
+  position: absolute;
+  width: 180px;
+  height: 72px;
+  top: 582px;
+  left: 751px;
+  opacity: 1;
+}
+
+/* Коло з вирізом */
+.circle-cut {
+  position: absolute;
+  width: 324px;
+  height: 312px;
+  top: 512px;
+  left: -162px;
+  opacity: 1;
+}
+
+/* Червоні лінії */
+.red-line {
+  position: absolute;
+  width: 1209px;
+  height: 255.5px;
+  top: 769px;
+  left: 14px;
+  opacity: 1;
+}
+
+/* Магазин */
+.shop {
+  position: absolute;
+  width: 464px;
+  height: 488px;
+  top: 592px;
+  left: 805px;
+  opacity: 1;
 }
