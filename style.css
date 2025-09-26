@@ -1,67 +1,121 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: Arial, sans-serif;
   background: #fff;
   position: relative;
   overflow-x: hidden;
 }
 
-/* Коло */
+/* Хедер */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  position: relative;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.nav a:hover {
+  color: #e63946;
+}
+
+/* Герой-секція */
+.hero {
+  position: relative;
+  z-index: 5;
+  padding: 100px 50px;
+  max-width: 600px;
+}
+
+.hero h1 {
+  font-size: 64px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.cta {
+  padding: 14px 28px;
+  background: #e63946;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+}
+
+.cta:hover {
+  background: #b42a36;
+}
+
+/* Декоративні елементи */
 .circle {
   position: absolute;
   width: 324px;
   height: 312px;
   top: 189px;
   left: 931px;
-  opacity: 1;
 }
 
-/* Овал 1 */
 .oval1 {
   position: absolute;
   width: 180px;
   height: 72px;
   top: 556px;
   left: 1177px;
-  opacity: 1;
 }
 
-/* Овал 2 */
 .oval2 {
   position: absolute;
   width: 180px;
   height: 72px;
   top: 582px;
   left: 751px;
-  opacity: 1;
 }
 
-/* Коло з вирізом */
 .circle-cut {
   position: absolute;
   width: 324px;
   height: 312px;
   top: 512px;
   left: -162px;
-  opacity: 1;
 }
 
-/* Червоні лінії */
 .red-line {
   position: absolute;
   width: 1209px;
   height: 255.5px;
   top: 769px;
   left: 14px;
-  opacity: 1;
 }
 
-/* Магазин */
 .shop {
   position: absolute;
   width: 464px;
   height: 488px;
   top: 592px;
   left: 805px;
-  opacity: 1;
 }
