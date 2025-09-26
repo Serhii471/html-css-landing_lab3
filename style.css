@@ -1,0 +1,17 @@
+.container {
+  width: 344px;
+  height: 100px;
+
+  border-top: 16px solid black;
+  border-right: 1px solid black;
+  border-bottom: 16px solid black;
+  border-left: 1px solid black;
+
+  padding: 16px 8px;
+
+  background-color: #f9f9f9;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
